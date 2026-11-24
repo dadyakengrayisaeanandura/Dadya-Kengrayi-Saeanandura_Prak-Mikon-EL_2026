@@ -27,9 +27,6 @@ void setup() {
  ina219.begin();
  display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
 
-
-
-
 }
 void loop() {
  int potValue = analogRead(potPin); // Hasil: 0 - 4095
